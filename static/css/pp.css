@@ -1,0 +1,48 @@
+body {
+    background-image: url("/static/image/nature.jpg");
+}
+
+h1 {
+    color: orange;
+    height: 72px;
+}
+
+ul {
+    color: aqua;
+    display: flex;
+    list-style-type: none;
+}
+
+.text {
+    padding: 12px 10px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    border-radius: 12px;
+}
+
+.submit {
+    background-color: #25D366;
+    border: 2px solid #25D366;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+}
+
+.edit {
+    background-color: rgb(0, 175, 240);
+    border: 2px solid rgb(0, 175, 240);
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+}
